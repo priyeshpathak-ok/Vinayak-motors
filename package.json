@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "description": "Vinayak Motors Varanasi - pre-owned car dealership website with lead capture",
-  "engines": { "node": ">=20" },
-  "scripts": { "dev": "node dev-server.js", "test": "node test/lead.test.js" }
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node test/lead.test.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }
