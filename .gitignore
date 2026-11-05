@@ -1,0 +1,4 @@
+leads.csv
+node_modules/
+.env*.local
+.vercel
