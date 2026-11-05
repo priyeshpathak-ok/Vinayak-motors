@@ -3,9 +3,9 @@ window.SITE = {
   name: "Vinayak Motors",
   city: "Varanasi",
   tagline: "Certified multi-brand pre-owned cars in Varanasi",
-  phone: "",            // e.g. "919876543210" (country code, no +). Empty = call buttons hidden
-  whatsapp: "",         // e.g. "919876543210". Empty = WhatsApp buttons hidden
-  email: "",
+  phone: "6306487204",            // e.g. "919876543210" (country code, no +). Empty = call buttons hidden
+  whatsapp: "6306487204",         // e.g. "919876543210". Empty = WhatsApp buttons hidden
+  email: "vinayakmotors.vns@gmail.com",
   address: "",          // full showroom address
   hours: "Mon-Sun, 10:00 AM - 8:00 PM",
   mapEmbed: "",         // Google Maps 'Embed a map' src URL
