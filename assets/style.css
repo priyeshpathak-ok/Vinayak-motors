@@ -7,7 +7,7 @@ a{color:var(--blue)}img,video,iframe{max-width:100%}
 .nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:20px;padding:10px 20px;background:rgba(11,27,58,.97);color:#fff;backdrop-filter:blur(6px)}
 .brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;line-height:1.1}
 .brand small{display:block;font-weight:500;font-size:.7rem;opacity:.75;letter-spacing:.12em;text-transform:uppercase}
-.logo{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:conic-gradient(var(--red) 0 50%,var(--blue) 0);color:#fff;font-size:.9rem;border:2px solid #fff}
+.logo{display:block;width:44px;height:44px;border-radius:50%;background:#fff;object-fit:contain;padding:2px;flex-shrink:0}
 .nav nav{display:flex;gap:18px;margin-left:auto}.nav nav a{color:#dbe3f5;text-decoration:none;font-weight:600;font-size:.95rem}.nav nav a:hover{color:#fff}
 .nav-cta{display:flex;gap:8px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 16px;border-radius:999px;border:1.5px solid transparent;font-weight:700;font-size:.95rem;text-decoration:none;cursor:pointer;font-family:inherit;transition:transform .15s,box-shadow .15s}
