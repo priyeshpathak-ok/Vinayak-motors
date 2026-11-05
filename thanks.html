@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thank you | Vinayak Motors Varanasi</title><meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header class="nav"><a class="brand" href="/"><span class="logo">VM</span><span>Vinayak Motors<small>Varanasi</small></span></a></header>
+<main class="page center">
+  <h1>Thank you! Your enquiry is confirmed.</h1>
+  <p>Our sales team will call you shortly. Please keep your reference ID handy:</p>
+  <div class="ref" id="ref">-</div>
+  <p class="small" id="type"></p>
+  <div class="hero-actions" style="justify-content:center">
+    <a class="btn wa" id="wa" hidden target="_blank" rel="noopener">Continue on WhatsApp</a>
+    <a class="btn primary" href="/">Back to cars</a>
+  </div>
+</main>
+<script src="assets/config.js"></script>
+<script>
+(function(){
+  var q=new URLSearchParams(location.search), ref=(q.get("ref")||"").replace(/[^A-Z0-9-]/gi,"").slice(0,24), t=(q.get("t")||"").slice(0,40);
+  document.getElementById("ref").textContent=ref||"-";
+  if(t) document.getElementById("type").textContent="Request type: "+t;
+  var S=window.SITE||{}; if(S.whatsapp&&ref){var a=document.getElementById("wa");a.href="https://wa.me/"+S.whatsapp+"?text="+encodeURIComponent("Hi Vinayak Motors, my enquiry reference is "+ref+".");a.hidden=false;}
+  if(window.gtag) gtag("event","lead_confirmation_view");
+})();
+</script></body></html>
